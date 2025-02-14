@@ -1,0 +1,114 @@
+/*textos do corpo da pagina */
+h1 {
+    color: rgb(182, 153, 209);
+    justify-content: center;
+    font-family: "sofia", sans-serif;
+    animation: txtanimacao 2s;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    text-indent: 30px;
+    font-family:'Courier New', monospace;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-indent: 10px;
+}
+h4 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-indent: 10px;
+}
+h5 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-indent: 10px;
+}
+h6 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-indent: 10px;
+}
+p {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-indent: 5px;
+}
+
+/* textos de animcao */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txtanimacao span { animation-name: leFADEIN }
+@keyframes txtanimacao {
+    from {  opacity: 0; }
+    to { opacity: 1 }
+}
+
+/*botoes sim e nao */
+button {
+    background-color: rgb(182, 112, 218);
+    color: white;
+    padding: 14px 70px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+    font-size-adjust: none;
+    border-radius: 10px;
+}
+
+/*fundo */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("estrelas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/*audio */
+.audio{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+ 
+   /*apitacao para celular */
+
+@media screen and (max-width: 768px) {
+    .conterner {
+        display: block;
+        }
+
+    }
+
+    .conterner_imagem{
+        width: 50vw;
+    }
+
+    .conterner_caixa{
+        margin: 2m 2m;
+    }
+
+    .segundario { 
+        margin: 0;
+        text-align: center;
+    }
+
+    .primeira_imagem {
+        width: 34vw;
+        height: 555vh;
+    }
+    
